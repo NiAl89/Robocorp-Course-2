@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230124 13:05:33.009" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\alani01\.vscode\extensions\robocorp.robotframework-lsp-0.48.2\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/#/robot-order</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20230124 13:05:57.019" endtime="20230124 13:06:04.832"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/#/robot-order</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20230124 13:07:03.027" endtime="20230124 13:07:10.373"/>
+</kw>
+<kw name="Click Button" library="RPA.Browser.Selenium">
+<arg>//button[@class='btn btn-dark' and contains(text(),'OK')]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" starttime="20230124 13:07:10.373" endtime="20230124 13:07:10.512"/>
+</kw>
+<kw name="Close Browser" library="RPA.Browser.Selenium">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230124 13:07:10.512" endtime="20230124 13:07:14.601"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/#/robot-order</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20230124 13:07:26.107" endtime="20230124 13:07:33.768"/>
+</kw>
+<kw name="Click Button" library="RPA.Browser.Selenium">
+<arg>//button[@class='btn btn-dark' and contains(text(),'OK')]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" starttime="20230124 13:07:33.768" endtime="20230124 13:07:33.919"/>
+</kw>
+<kw name="Click Button" library="RPA.Browser.Selenium">
+<arg>//button[@class='btn btn-dark' and contains(text(),'OK')]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230124 13:07:43.261" level="FAIL">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=109.0.5414.75)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x01116643]
+	(No symbol) [0x010ABE21]
+	(No symbol) [0x00FAD960]
+	(No symbol) [0x00FE23A7]
+	(No symbol) [0x00FD6B13]
+	(No symbol) [0x00FFFD7C]
+	(No symbol) [0x00FD641F]
+	(No symbol) [0x010000D4]
+	(No symbol) [0x01016B09]
+	(No symbol) [0x00FFFB76]
+	(No symbol) [0x00FD49C1]
+	(No symbol) [0x00FD5E5D]
+	GetHandleVerifier [0x0138A142+2497106]
+	GetHandleVerifier [0x013B85D3+2686691]
+	GetHandleVerifier [0x013BBB9C+2700460]
+	GetHandleVerifier [0x011C3B10+635936]
+	(No symbol) [0x010B4A1F]
+	(No symbol) [0x010BA418]
+	(No symbol) [0x010BA505]
+	(No symbol) [0x010C508B]
+	BaseThreadInitThunk [0x756100F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77007BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77007B8E+238]
+</msg>
+<status status="FAIL" starttime="20230124 13:07:42.986" endtime="20230124 13:07:43.266"/>
+</kw>
+<status status="PASS" starttime="20230124 13:05:33.096" endtime="20230124 13:11:56.842"/>
+</kw>
+<status status="PASS" starttime="20230124 13:05:33.094" endtime="20230124 13:11:56.843"/>
+</test>
+<status status="PASS" starttime="20230124 13:05:33.013" endtime="20230124 13:11:56.845"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
